@@ -15,6 +15,7 @@ A full machine learning pipeline built on the classic **Iris dataset**, featurin
 - **Visualization:** PCA (3D) with Plotly  
 
 ---
+<img width="1123" height="550" alt="image" src="https://github.com/user-attachments/assets/dc368353-19a8-4fa2-b620-3849723728a4" />
 
 ## 🧠 Best Result
 
