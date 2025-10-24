@@ -1,17 +1,18 @@
 # 🌸 Iris Classification (Multi-Model ML Pipeline)
 
-A complete machine learning pipeline built on the classic **Iris dataset**, using multiple models, scalers, and automated hyperparameter tuning with `GridSearchCV`.
+A full machine learning pipeline built on the classic **Iris dataset**, featuring multiple models, preprocessing strategies, and an interactive **3D PCA visualization** using Plotly.
 
 ---
 
 ## ⚙️ Overview
 
-- **Dataset:** Iris (150 samples, 4 numeric features, 3 species)  
-- **Goal:** Predict iris species using geometric flower measurements  
+- **Dataset:** Iris (150 samples, 4 numeric features, 3 flower species)  
+- **Goal:** Predict iris species (`setosa`, `versicolor`, `virginica`)  
 - **Models tested:** `KNN`, `SVC`, `RandomForest`, `LogisticRegression`, `GradientBoosting`  
-- **Preprocessing:** Scaling (`StandardScaler`, `MinMaxScaler`, `RobustScaler`, `Normalizer`)  
+- **Preprocessing:** `StandardScaler`, `MinMaxScaler`, `RobustScaler`, `Normalizer`  
 - **Optimization:** Full `GridSearchCV` pipeline with CV=5  
 - **Metrics:** Accuracy, confusion matrix, classification report  
+- **Visualization:** PCA (3D) with Plotly  
 
 ---
 
@@ -21,4 +22,4 @@ A complete machine learning pipeline built on the classic **Iris dataset**, usin
 |--------|---------|-----------|
 | **KNN** | **Normalizer()** | **≈ 96–98%** |
 
-Confusion matrix:
+**Confusion Matrix:**
